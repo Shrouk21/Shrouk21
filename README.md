@@ -12,7 +12,7 @@
 
 I work on making deep learning models perform better **without spending more compute to get there** — through architectural refinements and data-level improvements.
 
-Research Assistant at **NISC, Nile University** · M.Sc. student in **Artificial Intelligence** · Two papers under review.
+Research Assistant at **NISC, Nile University** · M.Sc. student in **Artificial Intelligence** · Paper accepted at **UBMK 2026**.
 
 <br>
 
@@ -25,6 +25,15 @@ Research Assistant at **NISC, Nile University** · M.Sc. student in **Artificial
 <b><a href="https://github.com/Shrouk21/modified_stp3">ST-P3 — End-to-End Autonomous Driving</a></b><br>
 Refactored the official codebase — perception, prediction, and planning unified through spatial-temporal feature learning — and re-engineered training for distributed execution, bringing a 4×V100 setup down onto 2×T4 on Kaggle. Evaluated on nuScenes.<br>
 <sub><code>PyTorch</code> <code>Distributed training</code> <code>nuScenes</code> · <i>original method: Hu et al., ECCV 2022</i></sub>
+</td>
+</tr>
+
+<tr>
+<td width="120" align="center"><h3>734</h3><sub>TOK/S · 8 CONCURRENT</sub></td>
+<td>
+<b><a href="https://github.com/Shrouk21/Light_LLM">Light_LLM — Self-Hosted LLM Server for a Shared GPU</a></b><br>
+An OpenAI-compatible vLLM server on a lab GPU shared by 25+ users. One command serves any of nine Qwen models (chat, code, vision, reasoning) under a single name; each launch caps itself at 70% of free GPU memory, CPU and RAM and refuses to start rather than starve other jobs. AWQ int4 on Marlin kernels works around a Turing card with no bfloat16 or FlashAttention-2.<br>
+<sub><code>vLLM</code> <code>AWQ / int4</code> <code>OpenAI API</code> <code>Benchmarking</code></sub>
 </td>
 </tr>
 
@@ -80,8 +89,7 @@ Encoder-decoder with skip connections for pixel-level classification on the Lyft
 
 | Venue | Paper | Status |
 |:--|:--|:--|
-| **UBMK 2026** | Efficient Forecasting of Chaotic Attractors Using Machine Learning and Phase Space Reconstruction | Under review |
-| **MIUCC 2026** | Few Words, Many Dialects: Benchmarking Transformers for Low-Resource Arabic Dialect Sentiment Analysis | Under review |
+| **UBMK 2026** | Efficient Forecasting of Chaotic Attractors Using Machine Learning and Phase Space Reconstruction | Accepted |
 
 <br>
 
@@ -108,6 +116,7 @@ Encoder-decoder with skip connections for pixel-level classification on the Lyft
 <img src="https://img.shields.io/badge/LangChain-1B2B45?style=flat-square&logo=langchain&logoColor=4ADEC0">
 <img src="https://img.shields.io/badge/LangGraph-1B2B45?style=flat-square&logoColor=4ADEC0">
 <img src="https://img.shields.io/badge/Hugging%20Face-1B2B45?style=flat-square&logo=huggingface&logoColor=4ADEC0">
+<img src="https://img.shields.io/badge/vLLM-1B2B45?style=flat-square&logoColor=4ADEC0">
 <img src="https://img.shields.io/badge/RAG-1B2B45?style=flat-square&logoColor=4ADEC0">
 <img src="https://img.shields.io/badge/LoRA%20%2F%20PEFT-1B2B45?style=flat-square&logoColor=4ADEC0">
 </p>
